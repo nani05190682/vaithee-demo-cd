@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: vaithee
+  name: mypythonapp
+  labels:
+    name:
+    purpose:
+
+spec:
+  containers:
+  - name: mypythonapp
+    image: nginx
